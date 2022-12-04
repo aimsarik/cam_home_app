@@ -14,7 +14,7 @@ function createWindow () {
       devTools: false,
     }
   })
-  win.loadURL("https://homecare.aimsarik.com/");
+  win.loadFile('index.html');
   win.setIcon(path.join(__dirname, "/src/assets/home_screen.png"));
 
   win.maximize();
